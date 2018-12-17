@@ -150,7 +150,7 @@
                       <div class="form-group">
                         <label for="Email1">Email address</label>
                         <input type="email" class="form-control" id="Email1" aria-describedby="emailHelp" placeholder="Enter email">
-                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                        <small id="emailHelp" class="form-text text-muted"><i>I will never share your email with anyone else</i></small>
                       </div>
                       <div class="form-group">
                         <label for="Password">Password</label>
@@ -161,7 +161,7 @@
                         <input type="message" class="form-control" id="message" placeholder="Message">
                       </div>
                       
-                      <button type="submit" class="btn btn-success">Let's get in touch.</button>
+                      <button type="submit" class="btn btn--red2 btn--cta2 center-block">Let's get in touch</button>
                 </form>
               <!-- / pop up modal message box-->
               </div>
@@ -172,22 +172,40 @@
 
 <!--- Footer -->
     
-     <footer class="container-fluid">
+     <footer class="container-fluid footy-footer">
             <div class="row">
-                <div class="col-sm-4">
-                    <h4 class="uppercase general-sub">About</h4>
-                    <p class="inline-block">
-                        Skilled UX/UI web developer with experience in data analytics.
-                        The capacity for structural and design thinking.
-                    </p>
-                </div>
                 <div class="col-sm-4">
                     <h4 class="uppercase general-sub">Contact Details</h4>
                     <p class="inline-block"><i class="fa fa-map-marker" aria-hidden="true"></i> Dublin, Co. Dublin</p>
                     <p><i class="fa fa-phone" aria-hidden="true"></i> +353 86 322 5963</p>
                      <p><i class="fa fa-at" aria-hidden="true"></i> ahaseeb235@gmail.com</p>
                 </div>
+   <!--- Footer contact form -->             
+                <div class="contactform col-sm-4">
+                    <div>
+                        <h4 class="uppercase general-sub">Contact Me</h4>
+                    </div>
+                    <form>
+                      <div class="form-group">
+                        <label for="fullname">Full Name</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Full Name">
+                       
+                      </div>
+                      <div class="form-group">
+                        <label for="email">Email address</label>
+                        <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email">
+                        <small id="emailHelp" class="form-text text-muted" color="white">I will never share your email with anyone else.</small>
+                      </div>
+                      <div class="form-group">
+                        <label for="message">Message</label>
+                        <input type="message" class="form-control" id="message" placeholder="Message">
+                      </div>
+                      <button type="submit" class="btn btn--red1 btn--cta1 center-block">Submit</button>
+                    </form>
+                </div>
+       <!--- / Footer contact form -->           
                 
+       <!--- Footer social -->  
                 <div class="col-sm-4">
                     <h4 class="uppercase general-sub">I am Social</h4>
                     <ul class="list-inline social-links">
@@ -200,12 +218,12 @@
                     </ul>
                 </div>
             </div>
-          
+        <!--- /Footer social -->     
              
      </footer>
           <div class="row">
               <div class="container-fluid">
-                <p class="footnote"><i>This is a frontend Milestone project for Code Institute</i></p>
+                <p class="footnote"><i>*This is a frontend Milestone project for Code Institute</i></p>
               </div>
            </div> 
     

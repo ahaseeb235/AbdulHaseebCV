@@ -38,3 +38,12 @@ https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_scrollspy&stacked=h
     <li>Used glyphicons</li> 
     <li>background image with over lay</li> 
 </ul>
+
+<h3>Footer</h3>
+<ul>
+    <li>contact details</li> 
+    <li>contact form</li>
+    <li>social links</li> 
+    <li>footnote stating that this is Milestone project for Code Institute</li> 
+    <li>background color</li> 
+</ul>

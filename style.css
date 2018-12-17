@@ -197,7 +197,7 @@ body {
 /* education */
 
 #education {
-    background-color: blue;
+    background-color: transparent;
 }
 
 /*{padding-top:50px;height:500px;color: #fff; background-color: #009688;} */
@@ -260,6 +260,9 @@ body {
 }
 
 /*--------------------------------------------Footer*/
+
+
+
 footer {
     background-color: steelblue;
     color: #fafafa;
@@ -307,16 +310,96 @@ footer .cv-pdf i:hover {
     background: orange;
 }
 
+
+#message {
+    height: 100px;
+}
+
 #footer-details {
     margin: 20px;
 }
 
+.footy-footer h4 {
+    color: orange;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.text-muted {
+    color: orange;
+}
+
+.btn--cta1 {
+    font-weight: bold;
+    border-radius: 25px;
+    width: 175px;
+    margin:5px;
+    text-decoration: none;
+    margin-bottom: 50px;
+}
+
+.btn--red1 {
+    color: #fafafa;
+    background-color: transparent; 
+    border-color: #fafafa;
+    margin: 5px;
+    text-decoration: none;
+    margin-bottom: 10px;
+    float: none;
+}
+
+.btn--red1:hover,
+.btn--red1:active,
+.btn--red1:focus,
+.btn--red1:active:focus {
+    text-decoration: none;
+    background-color: orange;
+    color: #fafafa;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.btn--cta2 {
+    font-weight: bold;
+    border-radius: 25px;
+    width: 150px;
+    margin:5px;
+    text-decoration: none;
+    margin-bottom: 50px;
+}
+
+.btn--red2 {
+    color: #fafafa;
+    background-color: #e59400; 
+    border-color: #fafafa;
+    margin: 5px;
+    text-decoration: none;
+    margin-bottom: 10px;
+    float: none;
+}
+
+.btn--red2:hover,
+.btn--red2:active,
+.btn--red2:focus,
+.btn--red2:active:focus {
+    text-decoration: none;
+    background-color: orange;
+    color: #fafafa;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+
 /* footnote */
 .footnote {
     text-align: center;
-    background-color: #000080;
+    background-color: #000046;
     color: orange;
     margin-top: 0px;
-    padding: 10px 10px 10px 10px;
+    padding: 15px 10px 15px 10px;
    
 }
