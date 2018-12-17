@@ -2,6 +2,18 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+/* general links */
+
+.gen-links {
+    text-decoration: none;
+    color: green;
+}
+
+.gen-links :hover {
+    text-decoration: none;
+    color: #fafafa;
+}
+
 /* navbar */
 
 .logo {
@@ -172,9 +184,46 @@ body {
 
 /* education */
 
-.education {
+
+
+.container-wrapper-edu {
+    height: 120vh;
+    background: url('../images/featurebg1.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+    padding-top: 120px;
+    color: white;
+}
+
+.opaque-overlay-edu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.50);
+}    
+
+.header-education {
     text-align: center;
+    padding-bottom: 40px;
+}
+
+.education {
+    text-align: left;
     margin-bottom: 40px;
+}
+
+.time-line {
+    content: attr(dates);
+    color: orange;
+    font-weight: bold;
 }
 
 .education .glyphicon {
