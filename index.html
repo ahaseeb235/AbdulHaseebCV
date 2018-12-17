@@ -10,6 +10,8 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="style.css" type="text/css" />
 
 </head>
@@ -30,13 +32,26 @@
 	        	<a class="logo pull-left" href="index.html"><img src="images/AH.png" width="40" height="40"></a>
 	        	<span class="myname pull-left">Abdul Haseeb</span>
 	  	    </div>
-	      <div id="navbar" class="navbar-collapse collapse">
+	      
+	    <!--  <div id="navbar" class="navbar-collapse collapse">
+	        <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li><a href="#section1">Section 1</a></li>
+          <li><a href="#section2">Section 2</a></li>
+          <li><a href="#education">Section 3</a></li>
+        </ul>
+      </div> -->
+      
+      
+	        
+	     <div id="navbar" class="navbar-collapse collapse"> 
+	     
 	        <ul class="nav navbar-nav navbar-right">
 	          <li class="active"><a href="index.html">HOME</a></li>
-	          <li><a href="#">SKILLS</a></li>
-	          <li><a href="#">PORTFOLIO</a></li>
-	          <li><a href="#">WORK EXPERIENCE</a></li>
-	          <li><a href="#">EDUCATION</a></li>
+	          <li><a href="#skills">SKILLS</a></li>
+	          <li><a href="#portfolio">PORTFOLIO</a></li>
+	          <li><a href="#workexperience">WORK EXPERIENCE</a></li>
+	          <li><a href="#education">EDUCATION</a></li>
 	          <a href="files/AbdulHaseebCV.pdf" target="_blank" class="cv-pdf"><button type="button" class="btn btn-primary btn-lg btn-nav"> Download CV <i class="fa fa-download" aria-hidden="true"></i>  </button> </a>
                    
  	         
@@ -75,7 +90,7 @@
         
         
      <!-- Education -->    
-     <div class="container-wrapper container-wrapper-edu">
+     <div id="education" class="container-wrapper container-wrapper-edu">
         <div class="opaque-overlay-edu">&nbsp;</div>
         <div class="container education-container content-container">
             <!-- Education -->
@@ -155,11 +170,48 @@
           </div>
         </div>
 
-
-
-
+<!--- Footer -->
+    
+     <footer class="container-fluid">
+            <div class="row">
+                <div class="col-sm-4">
+                    <h4 class="uppercase general-sub">About</h4>
+                    <p class="inline-block">
+                        Skilled UX/UI web developer with experience in data analytics.
+                        The capacity for structural and design thinking.
+                    </p>
+                </div>
+                <div class="col-sm-4">
+                    <h4 class="uppercase general-sub">Contact Details</h4>
+                    <p class="inline-block"><i class="fa fa-map-marker" aria-hidden="true"></i> Dublin, Co. Dublin</p>
+                    <p><i class="fa fa-phone" aria-hidden="true"></i> +353 86 322 5963</p>
+                     <p><i class="fa fa-at" aria-hidden="true"></i> ahaseeb235@gmail.com</p>
+                </div>
+                
+                <div class="col-sm-4">
+                    <h4 class="uppercase general-sub">I am Social</h4>
+                    <ul class="list-inline social-links">
+                        <li><a target="_blank" href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a target="_blank" href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a target="_blank" href="#"><i class="fa fa-linkedin"></i></a></li>
+                        <li><a target="_blank" href="#"><i class="fa fa-pinterest"></i></a></li>
+                        <li><a target="_blank" href="#"><i class="fa fa-instagram"></i></a></li>
+                        <li><a target="_blank" href="#"><i class="fa fa-youtube"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+          
+             
+     </footer>
+          <div class="row">
+              <div class="container-fluid">
+                <p class="footnote"><i>This is a frontend Milestone project for Code Institute</i></p>
+              </div>
+           </div> 
+    
+    <!--- / Footer -->
 		<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-	    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
 	</body>
 </html>
