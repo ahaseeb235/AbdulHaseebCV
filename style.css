@@ -6,12 +6,12 @@ body {
 
 /* links to sections */
 
-#skills {padding-top:50px;height:500px;color: #fff; background-color: #1E88E5;}
+
 #portfolio {padding-top:50px;height:500px;color: #fff; background-color: #673ab7;}
-#workexperience {padding-top:50px;height:500px;color: #fff; background-color: #ff9800;}
-#education {
-    background-color: none;
+#workexperience { 
+    background-color: #ff9800;
 }
+
 
 
 /* general links */
@@ -29,14 +29,14 @@ body {
 /* navbar */
 
 .logo {
-  padding: 10px 10px 0px 10px;
+  padding: 10px 10px 20px 10px;
 }
 
 .myname {
   font-weight: bold;
   font-size: 20px;
   color: #fafafa;
-  padding-top: 15px;
+  padding-top: 20px;
 }
 
 .navbar {
@@ -193,6 +193,32 @@ body {
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
 }
+
+
+/* Skills section */
+
+#skills {
+    background-color: #1E88E5;
+}
+
+.progress {
+    position: relative;
+    height: 25px;
+}
+
+.progress-type {
+    position: absolute;
+    left: 0px;
+    font-weight: 400;
+    padding: 3px 30px 2px 10px;
+    color: #fafafa;
+    background-color: rgba(25, 25, 25, 0.2);
+}
+
+.progress-section {
+    margin: 40px 20px;
+}
+
 
 /* education */
 
