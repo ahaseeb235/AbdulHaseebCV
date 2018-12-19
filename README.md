@@ -30,6 +30,13 @@ https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_scrollspy&stacked=h
     <li>download CV button</li> 
 </ul>
 
+<h3>Skills section</h3>
+<ul>
+    <li>Add text</li> 
+    <li>Added progress bars</li>
+</ul>
+
+
 <h3>Education Section</h3>
 <ul>
     <li>Added dates</li> 

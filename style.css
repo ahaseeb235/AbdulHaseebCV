@@ -14,29 +14,19 @@ body {
 
 
 
-/* general links */
 
-.gen-links {
-    text-decoration: none;
-    color: green;
-}
-
-.gen-links :hover {
-    text-decoration: none;
-    color: #fafafa;
-}
 
 /* navbar */
 
 .logo {
-  padding: 10px 10px 20px 10px;
+  padding: 20px 10px 20px 10px;
 }
 
 .myname {
   font-weight: bold;
-  font-size: 20px;
+  font-size: 26px;
   color: #fafafa;
-  padding-top: 20px;
+  padding-top: 22px;
 }
 
 .navbar {
@@ -53,10 +43,11 @@ body {
 .navbar-default .navbar-collapse {
     border-color: transparent;
 }
-
 .navbar-default .navbar-toggle {
     border: 0;
+    padding-top: 26px;
 }
+
 
 .navbar-default .navbar-toggle:hover {
     background-color: transparent;
@@ -77,13 +68,14 @@ body {
 .navbar-default .navbar-nav>.active>a:hover {
     color: #fafafa;
     background: transparent;
-    padding-top: 20px;
+    padding-top: 30px;
 }
 
 
 .navbar-default .navbar-nav>li>a {
     color: #fafafa;
-    padding-top: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .navbar-default .navbar-nav>li>a:focus,
@@ -110,6 +102,7 @@ body {
     background-color: transparent;
     border-color: #fafafa;
     text-decoration: none;
+    margin-top: 15px;
 }
 
 .btn-nav:hover {
@@ -198,12 +191,23 @@ body {
 /* Skills section */
 
 #skills {
-    background-color: #1E88E5;
+    background-color: #ffffff;
+}
+
+.header-skills {
+    text-align: center;
+    padding-bottom: 40px;
+    color: steelblue;
 }
 
 .progress {
     position: relative;
     height: 25px;
+}
+
+.rightside .progress {
+    display: inline-block;
+    margin-right: 20px;
 }
 
 .progress-type {
@@ -217,6 +221,13 @@ body {
 
 .progress-section {
     margin: 40px 20px;
+}
+
+.skills .glyphicon {
+    display: block;
+    margin-bottom: 20px;
+    font-size: 45px;
+    line-height: 45px;
 }
 
 
@@ -275,6 +286,7 @@ body {
     line-height: 45px;
 }
 
+/*
 .education .btn {
     background-color: white;
     border-color: white;
@@ -284,8 +296,21 @@ body {
     margin-top: 10px;
     color: #f05f40;
 }
+*/
 
-/*--------------------------------------------Footer*/
+/* general links */
+
+.gen-links {
+    text-decoration: none;
+    color: green;
+}
+
+.gen-links :hover {
+    text-decoration: none;
+    color: #fafafa;
+}
+
+/* Footer */
 
 
 
