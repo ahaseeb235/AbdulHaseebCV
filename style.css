@@ -4,18 +4,6 @@ body {
 }
 
 
-/* links to sections */
-
-
-#portfolio {padding-top:50px;height:500px;color: #fff; background-color: #673ab7;}
-#workexperience { 
-    background-color: #ff9800;
-}
-
-
-
-
-
 /* navbar */
 
 .logo {
@@ -31,31 +19,31 @@ body {
 
 .navbar {
     margin-bottom: 0;
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     z-index: 1;
-    background-color: rgba(0, 0, 0, .2);
+    background-color: #000064;
     border: 0;
 }
 
 .navbar-default .navbar-collapse {
-    border-color: transparent;
+    border-color: #fafafa;
 }
 .navbar-default .navbar-toggle {
-    border: 0;
-    padding-top: 26px;
-}
+    margin-top: 25px;
+    
+} 
 
 
-.navbar-default .navbar-toggle:hover {
-    background-color: transparent;
-}
+/*.navbar-default .navbar-toggle:hover {
+    background-color: orange;
+} 
 
 .navbar-default .navbar-toggle .icon-bar {
-    background-color: white;
-}
+    background-color: orange;
+}*/
 
 .navbar-default .navbar-nav a {
     font-weight: bold;
@@ -68,7 +56,7 @@ body {
 .navbar-default .navbar-nav>.active>a:hover {
     color: #fafafa;
     background: transparent;
-    padding-top: 30px;
+    padding-top: 5px;
 }
 
 
@@ -88,10 +76,10 @@ body {
 .navbar-nav .active:hover {
     background-color: orange;
     border-color: orange;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
+    transition: all 0.50s ease-in-out;
+    -moz-transition: all 0.50s ease-in-out;
+    -webkit-transition: all 0.50s ease-in-out;
+    -o-transition: all 0.50s ease-in-out;
 } 
 
 .btn-nav {
@@ -101,7 +89,6 @@ body {
     margin:5px;
     background-color: transparent;
     border-color: #fafafa;
-    text-decoration: none;
     margin-top: 15px;
 }
 
@@ -109,26 +96,28 @@ body {
     background-color: orange;
     border-color: orange;
     text-decoration: none;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
+    transition: all 0.50s ease-in-out;
+    -moz-transition: all 0.50s ease-in-out;
+    -webkit-transition: all 0.50s ease-in-out;
+    -o-transition: all 0.50s ease-in-out;
 }
 
 /* callout header */
 
+
 .callout-container {
     height: 100vh;
     background: url('../images/headerbg.jpg') no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-size: cover; 
-    display: flex;
+    display: block;
     align-items: center;
     justify-content: flex-start;
     position: relative;
     padding-top: 100px;
+    margin-bottom: 100px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
 }
 
 .opaque-overlay {
@@ -142,28 +131,27 @@ body {
 
 .jumbotron {
     background-color: transparent;
-}
+    padding-top: 100px;
+    text-align: center;
+    
+ }
 
 .jumbotron .h1, .jumbotron h1 {
     color: #fafafa;
 }
 
-.jumbotron p {
-    color: #fafafa;
-}
 
 .fa-download, .fa-envelope {
     color: #fafafa;
 }
 
-/* callout header buttons */
+/* callout buttons */
 
 .btn--cta {
     font-weight: bold;
     border-radius: 25px;
     width: 175px;
     margin:5px;
-    text-decoration: none;
 }
 
 .btn--red {
@@ -171,32 +159,39 @@ body {
     background-color: transparent; 
     border-color: #fafafa;
     margin: 5px;
-    text-decoration: none;
 }
 
 .btn--red:hover,
 .btn--red:active,
 .btn--red:focus,
 .btn--red:active:focus {
-    text-decoration: none;
+    
     background-color: orange;
     color: #fafafa;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
+    border-color: orange;
+    transition: all 0.50s ease-in-out;
+    -moz-transition: all 0.50s ease-in-out;
+    -webkit-transition: all 0.50s ease-in-out;
+    -o-transition: all 0.50s ease-in-out;
 }
+
+
 
 
 /* Skills section */
 
+
 #skills {
-    background-color: #ffffff;
+    height: 100vh;
+    background-color: #d2d2d2;
+    display: block;
 }
 
 .header-skills {
     text-align: center;
-    padding-bottom: 40px;
+    padding-bottom: 80px;
+    padding-top: 100px;
+    margin-top: 20px;
     color: steelblue;
 }
 
@@ -207,7 +202,7 @@ body {
 
 .rightside .progress {
     display: inline-block;
-    margin-right: 20px;
+    margin-right: 50px;
 }
 
 .progress-type {
@@ -216,7 +211,7 @@ body {
     font-weight: 400;
     padding: 3px 30px 2px 10px;
     color: #fafafa;
-    background-color: rgba(25, 25, 25, 0.2);
+    background-color: rgba(25, 25, 25, 0.5);
 }
 
 .progress-section {
@@ -231,17 +226,34 @@ body {
 }
 
 
-/* education */
+/* work experience */
 
-#education {
-    background-color: transparent;
+#workexperience { 
+    background-color: #fafafa;
 }
 
-/*{padding-top:50px;height:500px;color: #fff; background-color: #009688;} */
+.header-wkexp {
+    text-align: center;
+    padding-bottom: 40px;
+    color: #fafafa;
+}
 
-.container-wrapper-edu {
-    height: 120vh;
-    background: url('../images/featurebg1.jpg') no-repeat center center fixed; 
+.workexperience .glyphicon {
+    display: block;
+    margin-bottom: 20px;
+    font-size: 45px;
+    line-height: 45px;
+}
+
+.time-linewkexp {
+    content: attr(dates);
+    color: orange;
+    font-weight: bold;
+}
+
+.container-wrapper-wkexp {
+    height: 100vh;
+    background: url('../images/wkexp.jpg') no-repeat bottom center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -250,8 +262,56 @@ body {
     align-items: center;
     justify-content: flex-start;
     position: relative;
+    padding-top: 80px;
+    color: white;
+}
+
+.opaque-overlay-wkexp {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.70);
+}
+
+.workexperience h3 {
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+
+
+
+
+
+/* portfolio */
+
+#portfolio {padding-top:50px;height:500px;color: #fff; background-color: #673ab7;}
+
+
+
+
+/* education */
+
+#education {
+    background-color: transparent;
+}
+
+
+.container-wrapper-edu {
+    height: 100vh;
+    background: url('../images/featurebg1.jpg') no-repeat center center fixed; 
+    background-size: cover; 
+    display: block;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
     padding-top: 120px;
     color: white;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
 }
 
 .opaque-overlay-edu {
@@ -266,9 +326,10 @@ body {
 .header-education {
     text-align: center;
     padding-bottom: 40px;
+    margin-top: 100px;
 }
 
-.education {
+.education h3 {
     text-align: left;
     margin-bottom: 40px;
 }
@@ -286,17 +347,7 @@ body {
     line-height: 45px;
 }
 
-/*
-.education .btn {
-    background-color: white;
-    border-color: white;
-    border-radius: 15px;
-    min-width: 100px;
-    font-weight: bold;
-    margin-top: 10px;
-    color: #f05f40;
-}
-*/
+
 
 /* general links */
 
@@ -336,7 +387,7 @@ footer .cv-pdf i:hover {
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
 }
-
+/*
 .social-links {
     padding-bottom: 15px;
 }
@@ -359,8 +410,28 @@ footer .cv-pdf i:hover {
 
 .social-links li a i:hover {
     background: orange;
+} */
+
+.links-social li a i:hover {
+    background: orange;
 }
 
+.links-social li a i {
+    width: 30px;
+    height: 30px;
+    padding: 10px 0;
+    border-radius: 10%;
+    font-size: 16px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    border: white;
+    background: transparent;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
 
 #message {
     height: 100px;
@@ -454,3 +525,52 @@ footer .cv-pdf i:hover {
     padding: 15px 10px 15px 10px;
    
 }
+
+
+
+/* retrun to top */
+
+#return-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.7);
+    width: 50px;
+    height: 50px;
+    display: block;
+    text-decoration: none;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    border-radius: 35px;
+    display: none;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#return-to-top i {
+    color: #fff;
+    margin: 0;
+    position: relative;
+    left: 16px;
+    top: 13px;
+    font-size: 19px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#return-to-top:hover {
+    background: rgba(0, 0, 0, 0.9);
+}
+#return-to-top:hover i {
+    color: #fff;
+    top: 5px;
+}
+
+
+/* Extra Things */
+/* body{background: #eee ;font-family: 'Open Sans', sans-serif;}h3{font-size: 30px; font-weight: 400;text-align: center;margin-top: 50px;}h3 i{color: #444;} */

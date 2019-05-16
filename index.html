@@ -1,17 +1,17 @@
 <!DOCTYPE html>
-<!-- HTML5 Hello world by kirupa - http://www.kirupa.com/html5/getting_your_feet_wet_html5_pg1.htm -->
 <html lang="en-us">
 
 <head>
 	
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Abdul Haseeb's CV</title>
-	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+   
     <link rel="stylesheet" href="style.css" type="text/css" />
 
 </head>
@@ -24,30 +24,23 @@
     <div class="container-fluid">
 	      <div class="navbar-header">
 	        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-	          <span class="sr-only">Toggle navigation</span>
+	        <!--  <span class="sr-only">Toggle navigation</span> -->
 	          <span class="icon-bar"></span>
 	          <span class="icon-bar"></span>
 	          <span class="icon-bar"></span>
 	        </button>
-	        	<a class="logo pull-left" href="index.html"><img src="images/AH.png" width="40" height="40"></a>
-	        	<span class="myname pull-left">Abdul Haseeb</span>
+	        	<a class="logo pull-left" href="index.html"><img src="images/AH.png" alt="abdul haseeb logo" width="40" height="40"></a>
+	        	<span class="myname pull-left hidden-xs">Abdul Haseeb</span>
 	  	    </div>
 	      
-	    <!--  <div id="navbar" class="navbar-collapse collapse">
-	        <div class="collapse navbar-collapse" id="myNavbar">
-        <ul class="nav navbar-nav">
-          <li><a href="#section1">Section 1</a></li>
-          <li><a href="#section2">Section 2</a></li>
-          <li><a href="#education">Section 3</a></li>
-        </ul>
-      </div> -->
+	  
       
       
 	        
 	     <div id="navbar" class="navbar-collapse collapse"> 
 	     
 	        <ul class="nav navbar-nav navbar-right">
-	          <li class="active"><a href="index.html">HOME</a></li>
+	          <li><a class="active" href="index.html">HOME</a></li>
 	          <li><a href="#skills">SKILLS</a></li>
 	          <li><a href="#workexperience">WORK EXPERIENCE</a></li>
 	          <li><a href="#portfolio">PORTFOLIO</a></li>
@@ -74,8 +67,8 @@
                     
              <!-- Callout header buttons -->       
                   
-                    <button type="button" class="btn btn-primary btn-lg btn--cta btn--red" data-toggle="modal" data-target="#SignupModal"><i class="fa fa-envelope" aria-hidden="true"> </i> Contact Me </button>
-                    <a href="files/AbdulHaseebCV.pdf" target="_blank" class="cv-pdf"><button type="button" class="btn btn-primary btn-lg btn--cta btn--red">Download CV <i class="fa fa-download" aria-hidden="true"></i>  </button></a>
+                    <button type="button" class="btn btn-primary btn-lg btn--cta btn--red" data-toggle="modal" data-target="#SignupModal"><i class="fa fa-envelope"> </i> Contact Me </button>
+                    <a href="files/AbdulHaseebCV.pdf" target="_blank" class="cv-pdf"><button type="button" class="btn btn-primary btn-lg btn--cta btn--red">Download CV <i class="fa fa-download"></i>  </button></a>
                    
             <!-- / Callout header buttons -->        
                     
@@ -88,17 +81,22 @@
   
         <!-- / Callout header -->
         
+  
+        
+        
+        
+        
+        
         <!-- Skills sections -->
     
     <div id="skills" class="row progress-section">
-        <section class="skills">
+        <div class="skills">
              <div class="row">
                     <div class="col-xs-12">
                         <div class="header-skills">
-                            <h1 class="text-uppercase"><span class="glyphicon glyphicon-tasks"></span>skills </h1>
+                            <h1 class="text-uppercase"><span class="glyphicon glyphicon-tasks"></span>my skills </h1>
                         </div>
                     </div>
-                    
              </div>
              <div class="rightside col-md-6">
                  <h2>Why hire me?</h2>
@@ -114,7 +112,14 @@
                  Mollitia tenetur impedit reprehenderit rem autem corporis, alias dolor totam 
                  officiis at numquam vitae, minima a illo temporibus deleniti itaque. Rem corrupti 
                  consequatur dicta!</p>
+                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                 Possimus aperiam ut provident, quo necessitatibus iusto omnis, 
+                 nihil debitis, nemo quos nostrum quod deleniti earum amet ex! 
+                 Mollitia tenetur impedit reprehenderit rem autem corporis, alias dolor totam 
+                 officiis at numquam vitae, minima a illo temporibus deleniti itaque. Rem corrupti 
+                 consequatur dicta!</p>
              </div>
+                   <div class="prog-column">
                             <div class="progress">
                                 <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
                                     <span class="sr-only"> 70% complete</span>
@@ -157,10 +162,9 @@
                                 </div>
                                 <span class="progress-type">Data Analytics</span>
                             </div>
-                        </div>     
-                 
-                 
-        </section>
+                    </div>
+        </div>     
+    </div>
             
             
         
@@ -168,7 +172,61 @@
         
         <!-- / skills section -->
         
-        
+           <!-- work experience -->
+     <div id="workexperience" class="container-wrapper container-wrapper-wkexp">
+      <div class="opaque-overlay-wkexp">&nbsp;</div>
+        <div class="container wkexp-container content-container">
+            
+            <section class="workexperience">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="header-wkexp">
+                        <h1 class="text-uppercase"><span class="glyphicon glyphicon-knight"></span>Work Experience</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 col-md-4">
+                            <p class="time-linewkexp">Sept 2018 - <span class="label label-success">Current</span></p>
+                            <h3>Management Information Systems & Data Analytics </h3>
+                            <p><i>Merchants Quay, Dublin 8, Ireland</i></p>
+                            <p class="gen-links"><a href="http://www.mqi.ie" target="_blank">Merchants Quay Ireland</a></p>
+                            <hr>
+                    </div>
+                   <div class="col-xs-12 col-md-4">
+                            <p class="time-linewkexp">Sept 2014 - Aug 2018</p>
+                            <h3>Senior Design & Print/Finish Operative </h3>
+                            <p><i>Sandyford, Dublin 18, Ireland</i></p>
+                            <p class="gen-links"> <a href="https://www.reads.ie" target="_blank">Reads Print and Design</a></p>
+                            <hr>
+                    </div>
+                    <div class="col-xs-12 col-md-4 ">
+                            <p class="time-linewkexp">Feb 2012 - Aug 2014</p>
+                            <h3>Community Development Projects' Coordinator</h3>
+                            <p><i>Clongriffin, Dublin 13, Ireland</i></p>
+                            <p class="gen-links"><a href="#" target="_blank">Dublin Welfare Society</a></p>
+                            <hr class="hidden-xs">
+                    </div>
+                </div>
+            </section>
+            
+        </div>
+    </div>
+
+
+
+        <!-- / work experience -->
+
+
+
+
+
+
+        <!-- portfolio -->
+
+
+        <!--/ portfolio -->
+           
         
         
      <!-- Education -->    
@@ -179,15 +237,15 @@
             <section class="education">
                 <div class="row">
                     <div class="col-xs-12">
-                        <div class="header-education">
+                        <div class="header-wkexp">
                             <h1 class="text-uppercase"><span class="glyphicon glyphicon-education"></span>Education</h1>
                         </div>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-xs-12 col-md-4">
-                            <p class="time-line">Oct 2018 - Current</p>
-                            <h3>Diploma in Full Stack Web Development </h3><!-- <span class="label label-success">Current</span> -->
+                            <p class="time-line">Oct 2018 - <span class="label label-success">Current</span></p>
+                            <h3>Diploma in Full Stack Web Development </h3>
                             <p class="gen-links"><a href="http://www.codeinstitute.net" target="_blank">Code Institute, Dublin.</a></p>
                             <hr>
                     </div>
@@ -254,10 +312,24 @@
                     <h4 class="uppercase general-sub">Contact Details</h4>
                     <p class="inline-block"><i class="fa fa-map-marker" aria-hidden="true"></i> Dublin, Co. Dublin</p>
                     <p><i class="fa fa-phone" aria-hidden="true"></i> +353 86 322 5963</p>
-                     <p><i class="fa fa-at" aria-hidden="true"></i> ahaseeb235@gmail.com</p>
+                     <p><i class="fa fa-at" aria-hidden="true"></i> ahaseeb235 [at] gmail.com</p>
+                     
+                     <!--- social links -->
+                     
+                    <h4 class="uppercase general-sub border border-white">I am also very Social</h4>
+                    <ul class="list-inline links-social">
+                        <li><a target="_blank" href="https://www.facebook.com/abd.haseeb"><i class="fa fa-facebook"></i></a></li>
+                        <li><a target="_blank" href="https://twitter.com/ahaseeb235"><i class="fa fa-twitter"></i></a></li>
+                        <li><a target="_blank" href="https://ie.linkedin.com/in/abdul-haseeb-826897b"><i class="fa fa-linkedin"></i></a></li>
+                        <li><a target="_blank" href="https://www.instagram.com/abd.haseeb/?hl=en"><i class="fa fa-instagram"></i></a></li>
+                        <!--- <li><a target="_blank" href="#"><i class="fa fa-pinterest"></i></a></li>
+                        <li><a target="_blank" href="#"><i class="fa fa-youtube"></i></a></li> -->
+                    </ul>
+                    <!--- / social links -->
                 </div>
+                
    <!--- Footer contact form -->             
-                <div class="contactform col-sm-4">
+                <div class="contactform col-sm-8">
                     <div>
                         <h4 class="uppercase general-sub">Contact Me</h4>
                     </div>
@@ -282,7 +354,7 @@
        <!--- / Footer contact form -->           
                 
        <!--- Footer social -->  
-                <div class="col-sm-4">
+            <!--    <div class="col-sm-4">
                     <h4 class="uppercase general-sub">I am Social</h4>
                     <ul class="list-inline social-links">
                         <li><a target="_blank" href="#"><i class="fa fa-facebook"></i></a></li>
@@ -293,7 +365,7 @@
                         <li><a target="_blank" href="#"><i class="fa fa-youtube"></i></a></li>
                     </ul>
                 </div>
-            </div>
+            </div> -->
         <!--- /Footer social -->     
              
      </footer>
